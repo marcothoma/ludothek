@@ -10,15 +10,15 @@
 namespace ludothek {
     
     
-    public partial class SiteMaster {
+    public partial class Contact {
         
         /// <summary>
-        /// MainContent-Steuerelement
+        /// Email-Steuerelement
         /// </summary>
         /// <remarks>
         /// Automatisch generiertes Feld
         /// Zum Ändern Felddeklaration aus der Designerdatei in eine Code-Behind-Datei verschieben.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.TextBox Email;
     }
 }
