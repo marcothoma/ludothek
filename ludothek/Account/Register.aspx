@@ -10,12 +10,42 @@
         <h4>Neues Konto erstellen</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
+        
+         <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="Name" CssClass="col-md-2 control-label">Name</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="Name" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Name"
+                    CssClass="text-danger" ErrorMessage="Das Name-Feld ist erforderlich." />
+            </div>
+        </div>
+         <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="Vorname" CssClass="col-md-2 control-label">Vorname</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="Vorname" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Vorname"
+                    CssClass="text-danger" ErrorMessage="Das Vorname-Feld ist erforderlich." />
+            </div>
+        </div>
+         <div class="form-group">
+            <asp:Label runat="server" AssociatedControlID="Telefon" CssClass="col-md-2 control-label">Telefon</asp:Label>
+            <div class="col-md-10">
+                <asp:TextBox runat="server" ID="Telefon" CssClass="form-control" TextMode="Phone" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="Telefon"
+                    CssClass="text-danger" ErrorMessage="Das Telefon-Feld ist erforderlich." />
+                <asp:RegularExpressionValidator runat="server" ControlToValidate="Telefon" ValidationExpression="\d+" 
+                    CssClass="text-danger" ErrorMessage="Im Telefon-Feld dürfen nur Zahlen eingeben." />
+
+            </div>
+        </div>
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="Email" CssClass="col-md-2 control-label">E-Mail</asp:Label>
             <div class="col-md-10">
                 <asp:TextBox runat="server" ID="Email" CssClass="form-control" TextMode="Email" />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="Email"
-                    CssClass="text-danger" ErrorMessage="Das E-Mail-Feld ist erforderlich." />
+                    CssClass="text-danger" ErrorMessage="Das E-Mail-Feld ist erforderlich." /> 
+                <asp:RegularExpressionValidator runat="server" ControlToValidate="Email" ValidationExpression="([-.]*\w+)+@([-.]*\w+)+\.([.]*\w+)+" 
+                    CssClass="text-danger" ErrorMessage="Bitte geben Sie eine gültige E-Mail-Adresse an." />
             </div>
         </div>
         <div class="form-group">

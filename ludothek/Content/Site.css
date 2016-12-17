@@ -36,3 +36,10 @@ input[type="select"] {
         padding: 0;
     }
 }
+
+/*register form error messages fix*/
+#MainContent_ctl07,
+#MainContent_ctl10 {
+    position: absolute;
+    left: 15px;
+}
