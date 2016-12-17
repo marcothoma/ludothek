@@ -107,6 +107,12 @@ namespace ludothek.Account
             }
         }
 
+        // Benutzerdaten abspeichern
+        protected void SaveUserClick(object sender, EventArgs e)
+        {
+            
+        }
+
         // DisableTwoFactorAuthentication
         protected void TwoFactorDisable_Click(object sender, EventArgs e)
         {

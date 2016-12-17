@@ -52,8 +52,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Startseite</a></li>
-                        <li><a runat="server" href="~/About">Informationen</a></li>
-                        <li><a runat="server" href="~/Rental/Rentals">Ausleihen</a></li>
+                        <li><a runat="server" href="~/Rental/CreateRental">Ausleihe erfassen</a></li>
+                        <li><a runat="server" href="~/Rental/Rentals">Ausleihen anzeigen</a></li>
                     </ul>
                     <asp:LoginView runat="server" ViewStateMode="Disabled">
                         <AnonymousTemplate>
