@@ -13,14 +13,19 @@ namespace ludothek.Rental
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DateTime currentDate  = DateTime.Now;
-            AusleiheBeginn.Text = currentDate.ToString("dd-MM-yyyy");
-            AusleiheEnde.Text = currentDate.AddMonths(1).ToString("dd-MM-yyyy");
+            if (Context.User.Identity.Name.ToString() == "")
+            {
+                Response.Redirect("AccessDenied.aspx");
+            }
 
             if (GameOne.Items.Count == 0)
             {
                 xmlGames.setListBoxValues(ref GameOne);
             }
+
+            DateTime currentDate = DateTime.Now;
+            AusleiheBeginn.Text = currentDate.ToString("dd-MM-yyyy");
+            AusleiheEnde.Text = currentDate.AddMonths(1).ToString("dd-MM-yyyy");
         }
 
         protected void newRentalButton_Click(object sender, EventArgs e)

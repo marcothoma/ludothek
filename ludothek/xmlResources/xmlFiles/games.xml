@@ -23,7 +23,7 @@
   <game id="5">
     <name>Schach</name>
     <priceClass>1</priceClass>
-    <isInLendOut>false</isInLendOut>
+    <isInLendOut>true</isInLendOut>
   </game>
   <game id="6">
     <name>Scrabble</name>

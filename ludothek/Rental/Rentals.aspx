@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Ausleihen" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Rentals.aspx.cs" Inherits="ludothek.Rental.Rentals" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Ausleihen Übersicht.</h2>
+    <h1>Ausleihen Übersicht.</h1>
 
     <asp:UpdatePanel ID="UpdateGridView" runat="server">
         <ContentTemplate>

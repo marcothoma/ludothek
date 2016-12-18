@@ -208,6 +208,7 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Rental\AccessDenied.aspx" />
     <Content Include="xmlResources\xmlFiles\games.xml" />
     <Content Include="xmlResources\xmlFiles\rentals.xml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -395,6 +396,13 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rental\AccessDenied.aspx.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rental\AccessDenied.aspx.designer.cs">
+      <DependentUpon>AccessDenied.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Rental\Rentals.aspx.cs">
       <DependentUpon>Rentals.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

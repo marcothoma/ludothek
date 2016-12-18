@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Ausleihen" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CreateRental.aspx.cs" Inherits="ludothek.Rental.CreateRental"%>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Ausleihe erfassen.</h2>
+    <h1>Ausleihe erfassen.</h1>
     <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="GameOne" CssClass="col-md-2 control-label">Spiel</asp:Label>
             <div class="col-md-10">       
