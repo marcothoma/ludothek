@@ -21,4 +21,11 @@
     <active>true</active>
     <user>tester@tester.ch</user>
   </Rental>
+  <Rental id="4">
+    <game>Scrabble</game>
+    <rentalDate>18-12-2016</rentalDate>
+    <returnDate>01.02.2017</returnDate>
+    <active>true</active>
+    <user>testerasdfasdf@tester.ch</user>
+  </Rental>
 </RentalList>

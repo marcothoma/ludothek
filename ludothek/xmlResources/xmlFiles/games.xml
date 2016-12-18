@@ -28,6 +28,6 @@
   <game id="6">
     <name>Scrabble</name>
     <priceClass>1</priceClass>
-    <isInLendOut>false</isInLendOut>
+    <isInLendOut>true</isInLendOut>
   </game>
 </games>
