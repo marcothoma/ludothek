@@ -382,6 +382,14 @@
     <Compile Include="Migrations\201612162149180_InitialCreate.Designer.cs">
       <DependentUpon>201612162149180_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612172250369_Benutzerdaten.cs" />
+    <Compile Include="Migrations\201612172250369_Benutzerdaten.Designer.cs">
+      <DependentUpon>201612172250369_Benutzerdaten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612172254216_RemoveEmailAdress.cs" />
+    <Compile Include="Migrations\201612172254216_RemoveEmailAdress.Designer.cs">
+      <DependentUpon>201612172254216_RemoveEmailAdress.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -429,6 +437,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201612162149180_InitialCreate.resx">
       <DependentUpon>201612162149180_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612172250369_Benutzerdaten.resx">
+      <DependentUpon>201612172250369_Benutzerdaten.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612172254216_RemoveEmailAdress.resx">
+      <DependentUpon>201612172254216_RemoveEmailAdress.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -13,6 +13,10 @@ namespace ludothek.Models
     // Sie können Benutzerdaten für den Benutzer durch Hinzufügen weiterer Eigenschaften zur User-Klasse hinzufügen. Weitere Informationen finden Sie unter "http://go.microsoft.com/fwlink/?LinkID=317594".
     public class ApplicationUser : IdentityUser
     {
+        public String Name { get; set; }
+        public String Vorname { get; set; }
+        public String Telefon { get; set; }
+
         public ClaimsIdentity GenerateUserIdentity(ApplicationUserManager manager)
         {
             // Beachten Sie, dass der "authenticationType" mit dem in "CookieAuthenticationOptions.AuthenticationType" definierten Typ übereinstimmen muss.
