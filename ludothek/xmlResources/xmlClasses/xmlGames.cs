@@ -7,16 +7,16 @@ using System.Xml;
 using System.Data;
 using System.Web.UI.WebControls;
 
-namespace M133_Pfister_Tim.XML_Helpers
+namespace ludothek.xmlResources.xmlClasses
 {
-    public class Games
+    public class xmlGames
     {
 
         public static void setListBoxValues(ref DropDownList game)
         {
             game.Items.Clear();
             XmlDocument xDocument = new XmlDocument();
-            xDocument.Load(System.Web.HttpContext.Current.Request.MapPath("~\\XML\\") + "games.xml");
+            xDocument.Load(System.Web.HttpContext.Current.Request.MapPath("~\\xmlResources\\xmlFiles\\") + "games.xml");
             String price;
             foreach (XmlNode node in xDocument.GetElementsByTagName("game"))
             {
@@ -25,16 +25,16 @@ namespace M133_Pfister_Tim.XML_Helpers
                     switch(node.SelectSingleNode("priceClass").InnerText)
                     {
                         case "1":
-                            price = "CHF 3.-";
+                            price = "CHF 5.-";
                             break;
                         case "2":
-                            price = "CHF 6.-";
-                            break;
-                        case "3":
                             price = "CHF 9.-";
                             break;
+                        case "3":
+                            price = "CHF 12.-";
+                            break;
                         default:
-                            price = "";
+                            price = "15.-";
                             break;
                     }
                     game.Items.Add(new ListItem(node.SelectSingleNode("name").InnerText + " / " + price ,

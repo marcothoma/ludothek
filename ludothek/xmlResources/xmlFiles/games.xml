@@ -1,43 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <games>
   <game id="1">
-    <name>Spiel des Lebens</name>
+    <name>Monopoly</name>
     <priceClass>2</priceClass>
     <isInLendOut>true</isInLendOut>
   </game>
   <game id="2">
-    <name>Monopoly</name>
+    <name>Siedler von Catan</name>
     <priceClass>2</priceClass>
-    <isInLendOut>false</isInLendOut>
+    <isInLendOut>true</isInLendOut>
   </game>
   <game id="3">
     <name>Risiko</name>
     <priceClass>3</priceClass>
-    <isInLendOut>false</isInLendOut>
+    <isInLendOut>true</isInLendOut>
   </game>
   <game id="4">
-    <name>Colt Express</name>
+    <name>Wizard</name>
     <priceClass>3</priceClass>
     <isInLendOut>true</isInLendOut>
   </game>
   <game id="5">
-    <name>Ligretto</name>
+    <name>Schach</name>
     <priceClass>1</priceClass>
     <isInLendOut>false</isInLendOut>
   </game>
   <game id="6">
-    <name>Cards against Humanity</name>
+    <name>Scrabble</name>
     <priceClass>1</priceClass>
-    <isInLendOut>false</isInLendOut>
-  </game>
-  <game id="7">
-    <name>Leiterlispiel</name>
-    <priceClass>2</priceClass>
-    <isInLendOut>false</isInLendOut>
-  </game>
-  <game id="8">
-    <name>Pocker</name>
-    <priceClass>2</priceClass>
     <isInLendOut>false</isInLendOut>
   </game>
 </games>

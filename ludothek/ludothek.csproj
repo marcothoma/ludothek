@@ -209,7 +209,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="xmlResources\xmlFiles\games.xml" />
-    <Content Include="xmlResources\xmlFiles\LendOut.xml" />
+    <Content Include="xmlResources\xmlFiles\rentals.xml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Rental\Rentals.aspx" />
     <Content Include="Rental\CreateRental.aspx" />
@@ -431,8 +431,8 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
-    <Compile Include="xmlResources\xmlClasses\Games.cs" />
-    <Compile Include="xmlResources\xmlClasses\LendOut.cs" />
+    <Compile Include="xmlResources\xmlClasses\xmlGames.cs" />
+    <Compile Include="xmlResources\xmlClasses\xmlRentals.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

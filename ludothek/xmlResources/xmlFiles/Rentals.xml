@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RentalList>
+  <Rental id="1">
+    <game>Siedler von Catan</game>
+    <rentalDate>18-12-2016</rentalDate>
+    <returnDate>01.02.2017</returnDate>
+    <active>true</active>
+    <user>testman@tester.ch</user>
+  </Rental>
+  <Rental id="2">
+    <game>Wizard</game>
+    <rentalDate>17-11-2016</rentalDate>
+    <returnDate>17-12-2016</returnDate>
+    <active>false</active>
+    <user>testman@tester.ch</user>
+  </Rental>
+</RentalList>

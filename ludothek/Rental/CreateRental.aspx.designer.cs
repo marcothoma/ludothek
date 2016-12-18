@@ -13,13 +13,31 @@ namespace ludothek.Rental {
     public partial class CreateRental {
         
         /// <summary>
-        /// Spiel control.
+        /// GameOne control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Spiel;
+        protected global::System.Web.UI.WebControls.DropDownList GameOne;
+        
+        /// <summary>
+        /// FreeGame control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CustomValidator FreeGame;
+        
+        /// <summary>
+        /// ErrorLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ErrorLabel;
         
         /// <summary>
         /// AusleiheBeginn control.
@@ -31,6 +49,15 @@ namespace ludothek.Rental {
         protected global::System.Web.UI.WebControls.TextBox AusleiheBeginn;
         
         /// <summary>
+        /// CompareValidator1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        
+        /// <summary>
         /// AusleiheEnde control.
         /// </summary>
         /// <remarks>
@@ -38,5 +65,23 @@ namespace ludothek.Rental {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox AusleiheEnde;
+        
+        /// <summary>
+        /// dateValidator control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CompareValidator dateValidator;
+        
+        /// <summary>
+        /// newRentalButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button newRentalButton;
     }
 }
