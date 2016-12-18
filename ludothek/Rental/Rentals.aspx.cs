@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ludothek
+namespace ludothek.Rental
 {
     public partial class Rentals : Page
     {

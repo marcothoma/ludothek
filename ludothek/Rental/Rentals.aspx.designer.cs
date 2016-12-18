@@ -10,7 +10,7 @@
 namespace ludothek.Rental {
     
     
-    public partial class Rental {
+    public partial class Rentals {
         
         /// <summary>
         /// Spielanzeige control.

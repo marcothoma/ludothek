@@ -13,12 +13,30 @@ namespace ludothek.Rental {
     public partial class CreateRental {
         
         /// <summary>
-        /// Spielnummer control.
+        /// Spiel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Spielnummer;
+        protected global::System.Web.UI.WebControls.DropDownList Spiel;
+        
+        /// <summary>
+        /// AusleiheBeginn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AusleiheBeginn;
+        
+        /// <summary>
+        /// AusleiheEnde control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox AusleiheEnde;
     }
 }
