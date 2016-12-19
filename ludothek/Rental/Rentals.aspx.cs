@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Xml;
 using ludothek.xmlResources.xmlClasses;
-
+using System.Globalization;
 
 namespace ludothek.Rental
 {
@@ -19,9 +19,25 @@ namespace ludothek.Rental
             {
                 Response.Redirect("AccessDenied.aspx");
             }
+//            updateRentalsXmlActiveFlag();
             showRentalGridView();
             showRentalHistoryGridView();
         }
+
+//        protected void updateRentalsXmlActiveFlag() {
+//            var xmlPath = System.Web.HttpContext.Current.Request.MapPath("~\\xmlResources\\xmlFiles\\") + "rentals.xml";
+//            XmlDocument xDocument = new XmlDocument();
+//            xDocument.Load(xmlPath);
+//
+//            foreach (XmlElement xmlElement in xDocument.DocumentElement.SelectNodes("Rental"))
+//            { 
+//                DateTime returnDate = DateTime.ParseExact(xmlElement.GetAttribute("ReturnDate"), "dd-MM-yyyy", CultureInfo.InvariantCulture);
+//               var dateCompareResult = DateTime.Compare(returnDate, DateTime.Now);
+//                if (dateCompareResult < 0) {
+//                    xmlElement.SetAttribute("active", "false");
+//                }
+//            }
+//        }
 
         protected void showRentalGridView() {
             DataTable dt = new DataTable();
