@@ -22,6 +22,20 @@
     <user>tester@tester.ch</user>
   </Rental>
   <Rental id="4">
+    <game>Monopoly</game>
+    <rentalDate>18-12-2016</rentalDate>
+    <returnDate>01-02-2017</returnDate>
+    <active>false</active>
+    <user>tester@tester.ch</user>
+  </Rental>
+  <Rental id="5">
+    <game>Monopoly</game>
+    <rentalDate>16-12-2016</rentalDate>
+    <returnDate>17-12-2016</returnDate>
+    <active>false</active>
+    <user>tester5@tester.ch</user>
+  </Rental>
+  <Rental id="6">
     <game>Scrabble</game>
     <rentalDate>18-12-2016</rentalDate>
     <returnDate>01-02-2017</returnDate>

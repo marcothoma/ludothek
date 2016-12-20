@@ -40,12 +40,6 @@ namespace ludothek.Account
             //Aktueller Benutzer auslesen
             var currentUser = manager.FindById(User.Identity.GetUserId());
 
-            //Felder mit aktuellen Benutzerdaten abfuellen
-            NameBearbeiten.Text = currentUser.Name;
-            VornameBearbeiten.Text = currentUser.Vorname;
-            TelefonBearbeiten.Text = currentUser.Telefon;
-            EmailBearbeiten.Text = currentUser.Email;
-
             HasPhoneNumber = String.IsNullOrEmpty(manager.GetPhoneNumber(User.Identity.GetUserId()));
 
             // Option nach dem Einrichten der zweistufigen Authentifizierung aktivieren
@@ -59,6 +53,11 @@ namespace ludothek.Account
 
             if (!IsPostBack)
             {
+                //Felder mit aktuellen Benutzerdaten abfuellen
+                NameBearbeiten.Text = currentUser.Name;
+                VornameBearbeiten.Text = currentUser.Vorname;
+                TelefonBearbeiten.Text = currentUser.Telefon;
+                EmailBearbeiten.Text = currentUser.Email;
 
                 // Zu rendernde Abschnitte ermitteln
                 if (HasPassword(manager))

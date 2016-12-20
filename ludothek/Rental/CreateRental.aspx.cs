@@ -17,6 +17,9 @@ namespace ludothek.Rental
             {
                 Response.Redirect("AccessDenied.aspx");
             }
+            
+            updateFlags.updateRentalsXmlActiveFlag();
+            updateFlags.updateIsInLendOutFlag();
 
             if (GameOne.Items.Count == 0)
             {

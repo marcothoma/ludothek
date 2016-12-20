@@ -3,27 +3,27 @@
   <game id="1">
     <name>Monopoly</name>
     <priceClass>2</priceClass>
-    <isInLendOut>true</isInLendOut>
+    <isInLendOut>false</isInLendOut>
   </game>
   <game id="2">
     <name>Siedler von Catan</name>
     <priceClass>2</priceClass>
-    <isInLendOut>true</isInLendOut>
+    <isInLendOut>false</isInLendOut>
   </game>
   <game id="3">
     <name>Risiko</name>
     <priceClass>3</priceClass>
-    <isInLendOut>true</isInLendOut>
+    <isInLendOut>false</isInLendOut>
   </game>
   <game id="4">
     <name>Wizard</name>
     <priceClass>3</priceClass>
-    <isInLendOut>true</isInLendOut>
+    <isInLendOut>false</isInLendOut>
   </game>
   <game id="5">
     <name>Schach</name>
     <priceClass>1</priceClass>
-    <isInLendOut>true</isInLendOut>
+    <isInLendOut>false</isInLendOut>
   </game>
   <game id="6">
     <name>Scrabble</name>

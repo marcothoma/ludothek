@@ -439,6 +439,7 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="xmlResources\xmlClasses\updateFlags.cs" />
     <Compile Include="xmlResources\xmlClasses\xmlGames.cs" />
     <Compile Include="xmlResources\xmlClasses\xmlRentals.cs" />
   </ItemGroup>
